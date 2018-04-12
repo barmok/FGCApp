@@ -1,0 +1,6 @@
+framework module Pods_FGCAppTests {
+  umbrella header "Pods-FGCAppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
