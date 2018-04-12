@@ -17,6 +17,7 @@
 		6FD504C5207ED5E700A202BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FD504C3207ED5E700A202BF /* LaunchScreen.storyboard */; };
 		6FD504D0207ED5E700A202BF /* FGCAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD504CF207ED5E700A202BF /* FGCAppTests.swift */; };
 		6FD504DB207ED5E700A202BF /* FGCAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD504DA207ED5E700A202BF /* FGCAppUITests.swift */; };
+		6FD504EA207F07C500A202BF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6FD504E9207F07C500A202BF /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		6FD504D6207ED5E700A202BF /* FGCAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FGCAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FD504DA207ED5E700A202BF /* FGCAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FGCAppUITests.swift; sourceTree = "<group>"; };
 		6FD504DC207ED5E700A202BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FD504E9207F07C500A202BF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		B4848691C13799C5A730BBBD /* Pods-FGCApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FGCApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FGCApp/Pods-FGCApp.debug.xcconfig"; sourceTree = "<group>"; };
 		BA11D63D189F51051FC37456 /* Pods-FGCAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FGCAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FGCAppTests/Pods-FGCAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BBB2B61EA549FF2F4649F98F /* Pods_FGCApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FGCApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -129,6 +131,7 @@
 				6FD504BE207ED5E700A202BF /* Main.storyboard */,
 				6FD504C1207ED5E700A202BF /* Assets.xcassets */,
 				6FD504C3207ED5E700A202BF /* LaunchScreen.storyboard */,
+				6FD504E9207F07C500A202BF /* GoogleService-Info.plist */,
 				6FD504C6207ED5E700A202BF /* Info.plist */,
 			);
 			path = FGCApp;
@@ -278,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FD504C5207ED5E700A202BF /* LaunchScreen.storyboard in Resources */,
+				6FD504EA207F07C500A202BF /* GoogleService-Info.plist in Resources */,
 				6FD504C2207ED5E700A202BF /* Assets.xcassets in Resources */,
 				6FD504C0207ED5E700A202BF /* Main.storyboard in Resources */,
 			);
@@ -365,6 +369,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-FGCApp/Pods-FGCApp-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Cordova/Cordova.framework",
 				"${BUILT_PRODUCTS_DIR}/CordovaPlugin-console/CordovaPlugin_console.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/cordova-plugin-camera/cordova_plugin_camera.framework",
 				"${BUILT_PRODUCTS_DIR}/cordova-plugin-contacts/cordova_plugin_contacts.framework",
 				"${BUILT_PRODUCTS_DIR}/cordova-plugin-device/cordova_plugin_device.framework",
@@ -381,11 +386,13 @@
 				"${BUILT_PRODUCTS_DIR}/cordova-plugin-statusbar/cordova_plugin_statusbar.framework",
 				"${BUILT_PRODUCTS_DIR}/cordova-plugin-vibration/cordova_plugin_vibration.framework",
 				"${BUILT_PRODUCTS_DIR}/cordova-plugin-wkwebview-engine/cordova_plugin_wkwebview_engine.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cordova.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CordovaPlugin_console.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/cordova_plugin_camera.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/cordova_plugin_contacts.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/cordova_plugin_device.framework",
@@ -402,6 +409,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/cordova_plugin_statusbar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/cordova_plugin_vibration.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/cordova_plugin_wkwebview_engine.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

@@ -145,6 +145,7 @@ strip_invalid_archs() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Cordova/Cordova.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CordovaPlugin-console/CordovaPlugin_console.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/cordova-plugin-camera/cordova_plugin_camera.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/cordova-plugin-contacts/cordova_plugin_contacts.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/cordova-plugin-device/cordova_plugin_device.framework"
@@ -161,10 +162,12 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/cordova-plugin-statusbar/cordova_plugin_statusbar.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/cordova-plugin-vibration/cordova_plugin_vibration.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/cordova-plugin-wkwebview-engine/cordova_plugin_wkwebview_engine.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Cordova/Cordova.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CordovaPlugin-console/CordovaPlugin_console.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/cordova-plugin-camera/cordova_plugin_camera.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/cordova-plugin-contacts/cordova_plugin_contacts.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/cordova-plugin-device/cordova_plugin_device.framework"
@@ -181,6 +184,7 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/cordova-plugin-statusbar/cordova_plugin_statusbar.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/cordova-plugin-vibration/cordova_plugin_vibration.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/cordova-plugin-wkwebview-engine/cordova_plugin_wkwebview_engine.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

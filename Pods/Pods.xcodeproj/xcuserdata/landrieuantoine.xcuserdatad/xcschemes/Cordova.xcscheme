@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1B772612C39361E04FC233AD81E05E5C"
+               BlueprintIdentifier = "B5FE7C837450F6590E46835D808532E5"
                BlueprintName = "Cordova"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "Cordova.framework">
