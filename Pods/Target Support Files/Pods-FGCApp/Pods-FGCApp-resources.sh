@@ -92,10 +92,12 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle"
   install_resource "${PODS_ROOT}/phonegap-ios-template/resources/config.xml"
   install_resource "${PODS_ROOT}/phonegap-ios-template/resources/www"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle"
   install_resource "${PODS_ROOT}/phonegap-ios-template/resources/config.xml"
   install_resource "${PODS_ROOT}/phonegap-ios-template/resources/www"
 fi

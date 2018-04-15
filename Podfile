@@ -8,6 +8,10 @@ target 'FGCApp' do
   #Pod for Firebase
   
   pod 'Firebase/Core'
+  pod 'FirebaseUI/Auth'
+
+  platform :ios, '11.1'
+  
 
   # Pods for FGCApp
 

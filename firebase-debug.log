@@ -1,0 +1,73 @@
+[debug] [2018-04-13T02:33:54.638Z] ----------------------------------------------------------------------
+[debug] [2018-04-13T02:33:54.640Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2018-04-13T02:33:54.641Z] CLI Version:   3.18.2
+[debug] [2018-04-13T02:33:54.641Z] Platform:      darwin
+[debug] [2018-04-13T02:33:54.641Z] Node Version:  v6.10.0
+[debug] [2018-04-13T02:33:54.641Z] Time:          Fri Apr 13 2018 12:33:54 GMT+1000 (AEST)
+[debug] [2018-04-13T02:33:54.641Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-13T02:33:54.656Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-13T02:33:54.656Z] > authorizing via signed-in user
+[debug] [2018-04-13T02:33:54.659Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/fgcapp-9eff4  
+  
+ Fri Apr 13 2018 12:33:54 GMT+1000 (AEST)
+[debug] [2018-04-13T02:33:56.251Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-13T02:33:56.252Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/fgcapp-9eff4/tokens  
+  
+ Fri Apr 13 2018 12:33:56 GMT+1000 (AEST)
+[debug] [2018-04-13T02:33:58.020Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-13T02:33:58.021Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/fgcapp-9eff4  
+  
+ Fri Apr 13 2018 12:33:58 GMT+1000 (AEST)
+[debug] [2018-04-13T02:33:59.599Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/landrieuantoine/Documents/Programming/Hybrid app/FGCApp'...
+[info] 
+[debug] [2018-04-13T02:33:59.602Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/177975423408/clients/_:getWebAppConfig  
+  
+ Fri Apr 13 2018 12:33:59 GMT+1000 (AEST)
+[debug] [2018-04-13T02:34:01.102Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./Pods/phonegap-ios-template/resources/www
+[info] ✔  hosting: Local server: http://localhost:5000
+
+[debug] [2018-04-15T06:05:02.446Z] ----------------------------------------------------------------------
+[debug] [2018-04-15T06:05:02.448Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2018-04-15T06:05:02.449Z] CLI Version:   3.18.4
+[debug] [2018-04-15T06:05:02.449Z] Platform:      darwin
+[debug] [2018-04-15T06:05:02.449Z] Node Version:  v6.10.0
+[debug] [2018-04-15T06:05:02.449Z] Time:          Sun Apr 15 2018 16:05:02 GMT+1000 (AEST)
+[debug] [2018-04-15T06:05:02.449Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-15T06:05:02.465Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-15T06:05:02.466Z] > authorizing via signed-in user
+[debug] [2018-04-15T06:05:02.468Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-04-15T06:05:02.468Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/UI6ESSqnHQbU3KrcCf9PhL537u-sMFqett0F9rvzkN0',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sun Apr 15 2018 16:05:02 GMT+1000 (AEST)
+[debug] [2018-04-15T06:05:09.062Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-15T06:05:09.070Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/fgcapp-9eff4  
+  
+ Sun Apr 15 2018 16:05:09 GMT+1000 (AEST)
+[debug] [2018-04-15T06:05:10.169Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-15T06:05:10.171Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/fgcapp-9eff4/tokens  
+  
+ Sun Apr 15 2018 16:05:10 GMT+1000 (AEST)
+[debug] [2018-04-15T06:05:12.166Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-15T06:05:12.167Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/fgcapp-9eff4  
+  
+ Sun Apr 15 2018 16:05:12 GMT+1000 (AEST)
+[debug] [2018-04-15T06:05:13.703Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/landrieuantoine/Documents/Programming/Hybrid app/FGCApp'...
+[info] 
+[debug] [2018-04-15T06:05:13.707Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/177975423408/clients/_:getWebAppConfig  
+  
+ Sun Apr 15 2018 16:05:13 GMT+1000 (AEST)
+[debug] [2018-04-15T06:05:15.124Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./Pods/phonegap-ios-template/resources/www
+[info] ✔  hosting: Local server: http://localhost:5000
+
